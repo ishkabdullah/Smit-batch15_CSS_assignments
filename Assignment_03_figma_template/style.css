@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+}
+
+.navbar{
+display: flex;
+justify-content: space-around;
+background-color: #FAFAFA;
+border-radius: 25px;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.pages ul{
+display: flex;
+list-style: none;
+/* border: 1px solid black; */
+border-radius: 25px;
+background-color: white;
+
+}
+
+.pages ul li {
+    padding: 10px 20px;
+
+}
+
+.contact ul{
+    display: flex;
+    list-style: none;
+}
+
+.contact ul li{
+    padding: 10px 40px;
+}
+
+.contact button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid gray;
+}
